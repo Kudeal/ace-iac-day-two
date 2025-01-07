@@ -9,8 +9,6 @@ resource "aviatrix_fqdn" "fqdn_filter" {
   fqdn_mode    = "white"
   fqdn_enabled = true
   manage_domain_names = false
-
-  # The correct definition of gw_filter_tag_list
   gw_filter_tag_list {
     gw_name = var.azure_spoke2_name
   }
