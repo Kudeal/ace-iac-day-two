@@ -5,9 +5,9 @@ data "aviatrix_spoke_gateway" "egress" {
 }
 
 resource "aviatrix_fqdn" "fqdn_filter" {
-  fqdn_tag         = "APP-RULES"
-  fqdn_mode        = "white"
-  fqdn_enabled     = true
+  fqdn_tag        = "APP-RULES"
+  fqdn_mode       = "white"
+  fqdn_enabled    = true
   manage_domain_names = false
 
   gw_filter_tag_list {
