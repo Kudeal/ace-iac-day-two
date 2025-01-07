@@ -7,7 +7,7 @@
 app-fqdn-rules.tf @kudeal2
 
 # In a true org structure, these files should have the Network Operators account as the owner:
-main.tf @Kudeal
-provider.tf @Kudeal
-variables.tf @Kudeal
-versions.tf @Kudeal
+main.tf @kudeal2
+provider.tf @kudeal2
+variables.tf @kudeal2
+versions.tf @kudeal2
