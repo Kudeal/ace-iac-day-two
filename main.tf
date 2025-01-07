@@ -8,10 +8,10 @@ resource "aviatrix_fqdn" "fqdn_filter" {
   fqdn_tag     = "APP-RULES"
   fqdn_mode    = "white"
   fqdn_enabled = true
-  manage_domain_names = false
   gw_filter_tag_list {
     gw_name = var.azure_spoke2_name
   }
+  manage_domain_names = false
 }
 
 resource "aviatrix_fqdn_tag_rule" "tcp" {
